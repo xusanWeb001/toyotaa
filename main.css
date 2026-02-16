@@ -3546,6 +3546,7 @@ footer {
 
     header {
         padding: 12px 0;
+        overflow-x: hidden;
     }
 
     .header__inner__top {
