@@ -1554,7 +1554,7 @@ form {
 
 .rate_inner {
     width: 100%;
-    padding: 10px 0;
+    padding: 60px 0;
     margin-bottom: 90px;
 }
 
@@ -1631,7 +1631,6 @@ form {
     margin-left: auto;
 }
 
-.rate_inner_bottom {}
 
 .rate_bottom_left_list {
     list-style: none;
@@ -2816,8 +2815,6 @@ footer {
     line-height: 100%;
     letter-spacing: 0%;
     text-align: right;
-    vertical-align: middle;
-
 }
 
 .auto2_price_text {
