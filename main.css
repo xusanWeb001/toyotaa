@@ -19,7 +19,7 @@ body {
     padding: 0 15px;
 }
 
-/* general finished */
+/* general finish */
 /* header start */
 
 .header__inner {
@@ -140,7 +140,6 @@ body {
     display: flex;
     list-style: none;
     gap: 16px;
-    /* justify-content: space-around; */
     padding: 0;
     margin: 0;
 }
@@ -242,6 +241,7 @@ body {
     align-items: center;
 }
 
+
 .bottom__list__item__title {
     font-weight: 700;
     font-size: 16px;
@@ -251,29 +251,207 @@ body {
     color: rgba(38, 38, 38, 1);
 }
 
-
-
-
-/* .badge {
-     position: absolute;
-     top: -8px;
-     right: -10px;
-     background: rgba(202, 1, 0, 1);
-     color: white;
-     font-size: 12px;
-     padding: 2px 6px;
-     border-radius: 50%; */
-/* } */
-
-
-/* .price {
-    background-image: url("../images/price-back.jpg");
-    background-position: calc(50% - 140px) calc(50% + 140px);
+.toyota_red {
+    background-color: #E5E5E5;
+    padding: 100px;
+    background-image: url('./images/red\ car.png');
     background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+
+}
+
+.toyota_red_inner_span {
+    background-color: #DC1E28;
+    color: #FFFFFF;
+    padding: 17px 38px 9px 42px;
+    border-radius: 56px;
+}
+
+.toyota_red_inner_top {
+    margin-bottom: 60px;
+
+}
+
+.toyota_red_inner_box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.toyota_red_inner_box_title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 1.2;
+    max-width: 750px;
+    margin: 10px 0 20px 0;
+}
+
+.cars {
+    padding: 50px 0;
+}
+
+.cars_inner {
+    background: #f4f4f4;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
+}
+
+
+.cars_inner_left {
+    width: 65%;
+}
+
+.cars_inner_left_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cars_inner_left_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cars_inner_left_list_item {
+    width: 30%;
+}
+
+.cars_inner_left_list_item_link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #000;
+}
+
+.cars_inner_left_list_item_img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.cars_inner_left_list_item_text {
+    font-size: 14px;
+}
+
+
+.cars_inner_right {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.cars_inner_right_title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.cars_inner_right_filter {
+    margin-bottom: 20px;
+}
+
+.cars_inner_right_label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.cars_inner_right_range {
+    width: 100%;
+}
+
+.cars_inner_right_selects {
+    margin-bottom: 20px;
+}
+
+.cars_inner_right_select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.cars_inner_right_btn {
+    width: 100%;
+    padding: 10px;
+    background: #cc0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.pts__inner {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.link_link {
+    padding-left: 650px;
+}
+
+.link {
+    background-color: #CA0100;
+    color: white;
+    padding: 17px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pts__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(38, 38, 38, 1);
+    margin: 10px 10px 64px 10px;
+}
+
+.pts__inner__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pts__inner__list__item {
+    max-width: 446px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    padding: 33px 25px 25px 25px;
+    margin: 0;
+    box-shadow: 0px 0px 30px 0px rgba(133, 147, 159, 0.3);
+
+}
+
+.list__item__title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 110%;
+    color: rgba(38, 38, 38, 1);
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.pts__list__item__box {
+    display: flex;
+    gap: 15px;
+    padding: 0 0 13px 0;
     position: relative;
-    background-size: 1400px 598px;
- }  */
-/* toyota start */
+}
 
 .toyota {
     background-color: #E5E5E5;
@@ -672,7 +850,6 @@ input[type="number"] {
 .trade_in {
     background-image: url('./images/trade.png');
 
-    background-size: 1600px 400px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -760,6 +937,7 @@ input[type="number"] {
 }
 
 /* trade-in finished */
+
 
 /* archive start*/
 
@@ -1058,7 +1236,7 @@ input[type="number"] {
 
 }
 
-/* archive finished */
+/* archive finish */
 
 /* feature start */
 /* Feature Section Styles */
@@ -3521,6 +3699,26 @@ form {
     left: 126px;
 }
 
+.lug {
+    margin: 100px;
+}
+
+.lug_inner_left_title {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.lug_inner_right_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 100px;
+}
+
 /* HOVERS START */
 .header__inner__top__list__item__link {
     transition: all 0.3s ease;
@@ -4084,8 +4282,39 @@ form {
 
 /* HOVERS FINISEHD   */
 
+.our_inner {
+    margin: 40px;
+}
 
+.our_inner_top {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
 
+.our_inner_top_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.our_inner_top_link {
+    text-decoration: none;
+    color: white;
+    background-color: #CA0100;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.our_inner_bottom_list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
 
 
 
